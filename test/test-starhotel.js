@@ -22,8 +22,9 @@ test('Test STAR-HOTEL', async t => {
     .click('#breakfast_off')
     .click('#plan_a')
     .click('#plan_b')
+    .takeScreenshot('input-end.png')
     .click('#agree_and_goto_next')
-
+    .takeScreenshot('result-page.png')
     .expect(Selector('#price').innerText).eql('97500');
 });
 
