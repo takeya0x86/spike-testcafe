@@ -10,6 +10,6 @@
     "testcafe": "testcafe"
   },
   "dependencies": {
-    "testcafe": "0.23.2"
+    "testcafe": "1.9.1"
   }
 }
